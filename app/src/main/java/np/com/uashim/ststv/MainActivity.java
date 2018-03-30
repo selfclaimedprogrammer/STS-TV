@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.share: {
                 Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
                 sharingIntent.setType("text/plain");
-                String shareBody = "Download STS TV app : http://www.uashim.com.np/";
+                String shareBody = "Download STS TV app : http://www.ststelevision.com/download/";
                 sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "");
                 sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
                 startActivity(Intent.createChooser(sharingIntent, "Share STS TV App"));
