@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:padding="15dp"
+    android:background="@color/colorPrimaryDark"
+    >
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_toStartOf="@+id/textView"
+            android:src="@drawable/stslogo"
+            app:civ_border_color="#FFF"
+            app:civ_border_width="2dp" />
+
+    <TextView
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:text="STS TV"
+        android:textStyle="bold"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="info@ststelevision.com "
+            android:textColor="#FFF3"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:id="@+id/textView" />
+
+
+</LinearLayout>

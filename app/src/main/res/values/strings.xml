@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">STS Television</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="info">
+        <![CDATA[<h3><b>STS Television</b></h3><p>Address: <b>Chauraha, Dhangadhi</b></p><p>Ph: <b>091-417350</b></p><p>Website : <b><a href="http://www.ststelevision.com/">www.ststelevision.com</a></b></p><p>Mail: <b><a href="mailto:info@ststelevision.com">info@ststelevision.com</a></b></p>]]>
+    </string>
+
+    <string name="title_activity_live_player">STS Live</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

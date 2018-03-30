@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/call"
+        android:icon="@drawable/ic_phone_call"
+        android:title="Call" />
+            <item android:id="@+id/visit_website" android:title="Visit Web" android:icon="@drawable/ic_web"/>
+            <item android:id="@+id/visit_fb" android:title="Facebook Page" android:icon="@drawable/ic_fb"/>
+            <item android:id="@+id/send_news" android:title="Send News" android:icon="@drawable/ic_send_news"/>
+
+    <item android:title="More">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share"
+                android:iconTint="@color/colorPrimaryDark"
+                android:title="Share" />
+            <item
+                android:id="@+id/advert"
+                android:icon="@drawable/ic_billboard"
+                android:iconTint="@color/colorPrimaryDark"
+                android:title="Advertise" />
+
+        </menu>
+    </item>
+
+
+</menu>
