@@ -53,6 +53,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     }
 
+    /*
+    **
+    **
+    **
+    Navigation Drawer Menu ITEM Functionality
+    **
+    **
+    **/
 
     //Method to close or open drawer
     @Override
